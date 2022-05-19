@@ -1,0 +1,12 @@
+def Rectangle(length,breadth):
+  if(length==0 or breadth==0)
+     print("Zero")
+  else:
+     area = length*breadth
+     print("{:.2f}".format(area))
+     return
+a=float(input())
+b=float(input())
+Rectangle(a,b)
+
+FNE203038N
